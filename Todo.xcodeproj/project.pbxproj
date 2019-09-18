@@ -20,6 +20,7 @@
 		8F30F2922330FE3200EC953B /* LocationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30F2912330FE3200EC953B /* LocationTests.swift */; };
 		8F30F2942330FFE500EC953B /* ItemManagerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30F2932330FFE500EC953B /* ItemManagerTests.swift */; };
 		8F30F2962331004B00EC953B /* ItemManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F30F2952331004B00EC953B /* ItemManager.swift */; };
+		8F30F299233234DC00EC953B /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 8F30F298233234DC00EC953B /* README.md */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,7 +60,7 @@
 		8F30F2912330FE3200EC953B /* LocationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationTests.swift; sourceTree = "<group>"; };
 		8F30F2932330FFE500EC953B /* ItemManagerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemManagerTests.swift; sourceTree = "<group>"; };
 		8F30F2952331004B00EC953B /* ItemManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ItemManager.swift; sourceTree = "<group>"; };
-		8F30F29723322F7800EC953B /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		8F30F298233234DC00EC953B /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +111,7 @@
 		0B801B14232681FA000FA574 /* Todo */ = {
 			isa = PBXGroup;
 			children = (
+				8F30F298233234DC00EC953B /* README.md */,
 				0B801B15232681FA000FA574 /* AppDelegate.swift */,
 				0B801B17232681FA000FA574 /* ViewController.swift */,
 				0B801B19232681FB000FA574 /* Main.storyboard */,
@@ -119,7 +121,6 @@
 				0B801B452326A928000FA574 /* ToDoItem.swift */,
 				8F30F28F2330F50900EC953B /* Location.swift */,
 				8F30F2952331004B00EC953B /* ItemManager.swift */,
-				8F30F29723322F7800EC953B /* README.md */,
 			);
 			path = Todo;
 			sourceTree = "<group>";
@@ -251,6 +252,7 @@
 			files = (
 				0B801B2023268209000FA574 /* LaunchScreen.storyboard in Resources */,
 				0B801B1D23268209000FA574 /* Assets.xcassets in Resources */,
+				8F30F299233234DC00EC953B /* README.md in Resources */,
 				0B801B1B232681FB000FA574 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
