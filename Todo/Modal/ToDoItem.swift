@@ -13,6 +13,7 @@ struct ToDoItem {
     let itemDescription: String?
     let timestamp: Double?
     let location: Location?
+    
     init(title: String,
          itemDescription: String? = nil,
          timestamp: Double? = nil,
